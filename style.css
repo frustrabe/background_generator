@@ -1,0 +1,84 @@
+html, body {
+	overflow: auto;
+	font-family: 'Press Start 2P';
+	font: 'Press Start 2P', sans-serif;
+	color: white;
+  	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1em
+	top: 0%;
+	height: 100%;
+  	margin: 0 !important;
+    padding: 0 !important;
+	background: linear-gradient(to right, #e66465, #9198e5);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+h1 {
+	font-family: 'Press Start 2P';
+	font: 600 3.5em 'Press Start 2P', sans-serif;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.1em
+	height: 100%;
+	width: 100%;
+}
+h2 {
+	margin-top: 50px;
+}
+h3 {
+	font-family: 'Press Start 2P';
+	font: 300 1em 'Press Start 2P', sans-serif;
+	color: white;
+	text-shadow: 1px 1px 2px black
+	text-align: center;
+	text-transform: none;
+	height: 100%;
+  	margin-top: 100px;
+	letter-spacing: normal;
+}
+
+a.button1 {
+	display:inline-block;
+	padding:0.35em 1.2em;
+	border:0.1em solid #FFFFFF;
+	margin:0 0.3em 0.3em 0;
+	border-radius: 12px;
+	box-sizing: border-box;
+	box-shadow: 0.2rem 0.2rem 0.2rem white;
+	text-decoration:none;
+	font-weight:300;
+	color:#FFFFFF;
+	text-align:center;
+	transition: all 0.2s;
+}
+
+@media all and (max-width:30em){
+
+a.button1 {
+  	display:block;
+  	margin:0.4em auto;
+ }
+}
+
+.wrapper {
+  	min-height: 99%;
+  	margin-bottom: -75px;
+}
+
+.footer, .push {
+	font-family: 'Press Start 2P';
+	font: 900 1em 'Press Start 2P', sans-serif;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	text-align: ;
+	text-transform: none;
+	margin: 0;
+	letter-spacing: 1em
+	height: 50px;	
+}
